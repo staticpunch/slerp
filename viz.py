@@ -131,5 +131,6 @@ def visualize_slerp():
     plt.title('SLERP Viz')
     plt.show()
 
-# Run the visualization
-visualize_slerp()
+if __name__ == "__main__":
+    # Run the visualization
+    visualize_slerp()
