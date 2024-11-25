@@ -186,7 +186,7 @@ def run_merge(
     save_checkpoint(merge_config)
 
 if __name__ == "__main__":
-    CONFIG_FILE = "slerp-config-custom.yaml"
+    CONFIG_FILE = "slerp-config-two-models.yaml"
     with open(CONFIG_FILE, "r", encoding="utf-8") as f:
         merge_config = yaml.safe_load(f)
         
